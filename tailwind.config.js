@@ -5,7 +5,7 @@ module.exports = {
     extend: {
     },
     fontFamily: {
-      'text-preset-1': ['Outfit', 'sans-serif']
+      'outfit': ['Outfit', 'sans-serif']
     }
   },
   plugins: [],
