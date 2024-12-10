@@ -4,21 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="./css/style.css" rel="stylesheet">
 
   <title>Frontend Mentor | QR code component</title>
 </head>
 <body>
-  <div class="flex flex-row flex-wrap items-end justify-between">
-    <div>
-      Improve your front-end skills by building projects
-      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    </div>
+  <!-- Background Container -->
+  <div class="flex items-center justify-center bg-slate-300 h-screen">
 
-    <div>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Carla</a>.
+    <!-- Inner Container -->
+    <div class="flex flex-col bg-white rounded-2xl p-4 space-y-6 shadow-sm items-center w-80">
+
+      <img src="./images/image-qr-code.png" alt="qr-code" class="rounded-xl w-72 h-72">
+
+      <!-- Text Container -->
+      <div class="flex flex-col space-y-4 pl-4 pr-4 content-center">
+        <h1 class="text-slate-900 font-text-preset-1 justify-center text-center font-bold text-xl drop-shadow">
+          Improve your front-end skills by building projects
+        </h1>
+
+        <p class="text-slate-500 font-text-preset-1 justify-center text-center text-base">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
     </div>
   </div>
 </body>
